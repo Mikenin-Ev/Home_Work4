@@ -90,15 +90,15 @@ public class Main {
         int one = 567;
         int two = 29;
         int three = 72;
-        int largetNumber =0;
+        int largestNumber =0;
         if (one > two && one > three){
-            largetNumber = one;
+            largestNumber = one;
         } else if (two > one && two > three){
-            largetNumber = two;
+            largestNumber = two;
         } else if (three > one && three > two){
-            largetNumber = three;
+            largestNumber = three;
         }
         System.out.println("У нас есть три числа: one = " + one + ", two = " + two + " и three = " + three + " ,- " +
-                "большее из них равно " + largetNumber);
+                "большее из них равно " + largestNumber);
     }
 }
